@@ -235,7 +235,7 @@ public class recognition {
                             
                             String in = heidelTime.process(sline, date);
 
-                        PrintWriter pr = new PrintWriter(new File("/home/ha/Downloads/result.xml"));
+                        PrintWriter pr = new PrintWriter(new File("result.xml"));
                         
                         pr.println(in);
                         
