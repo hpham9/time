@@ -218,7 +218,7 @@ public class recognition {
                             DocumentType.COLLOQUIAL,
                             OutputType.TIMEML,
                             config,
-                            POSTagger.TREETAGGER, true);
+                            POSTagger.TREETAGGER, true); 
                 	
                     try {
                     	BufferedReader sc = new BufferedReader(new FileReader(file));
