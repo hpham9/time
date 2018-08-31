@@ -219,7 +219,7 @@ public class recognition {
                             OutputType.TIMEML,
                             config,
                             POSTagger.TREETAGGER, true);
-                	//attempt
+                	
                     try {
                     	BufferedReader sc = new BufferedReader(new FileReader(file));
                     	StringBuilder sb = new StringBuilder();
