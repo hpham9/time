@@ -189,7 +189,7 @@ public class recognition {
             
         });
         
-        ConfigButton.addActionListener( new ActionListener() {
+        ConfigButton.addActionListener( new ActionListener() { 
             public void actionPerformed(ActionEvent ae) {
                 int result = fileChooser.showOpenDialog(Recognition);
                 if (result==JFileChooser.APPROVE_OPTION) {
