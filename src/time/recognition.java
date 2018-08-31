@@ -219,7 +219,7 @@ public class recognition {
                             OutputType.TIMEML,
                             config,
                             POSTagger.TREETAGGER, true);
-                	
+                	//attempt
                     try {
                     	BufferedReader sc = new BufferedReader(new FileReader(file));
                     	StringBuilder sb = new StringBuilder();
@@ -228,7 +228,7 @@ public class recognition {
                         while (line != null) {
                             sb.append(line);
                             sb.append("\n");
-                            line = sc.readLine();
+                            line = sc.readLine(); 
                         }
                             sline = sb.toString();
                             sc.close();
