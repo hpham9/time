@@ -193,7 +193,7 @@ public class recognition {
             public void actionPerformed(ActionEvent ae) {
                 int result = fileChooser.showOpenDialog(Recognition);
                 if (result==JFileChooser.APPROVE_OPTION) {
-                    File file2 = fileChooser.getSelectedFile();
+                    File file2 = fileChooser.getSelectedFile(); 
                     File filepath = fileChooser.getSelectedFile();
                     fullPath = filepath.getAbsolutePath();
                     ConfigPath.setText(fullPath);
