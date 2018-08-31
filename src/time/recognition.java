@@ -223,7 +223,7 @@ public class recognition {
                     try {
                     	BufferedReader sc = new BufferedReader(new FileReader(file));
                     	StringBuilder sb = new StringBuilder();
-                        String line = sc.readLine();
+                        String line = sc.readLine(); 
 
                         while (line != null) {
                             sb.append(line);
